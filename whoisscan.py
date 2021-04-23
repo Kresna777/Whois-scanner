@@ -7,7 +7,7 @@ while(True):
     for key,val in w.items():
         print(key,':',val)
 
-    i = input("\nkeluar ketik 'q' : ")
+    i = input("\nkeluar ketik 'q' lalu enter : ")
 
     if i =='q':
         break
