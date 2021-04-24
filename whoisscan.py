@@ -2,9 +2,9 @@ import whois
 
 while(True):
     url = input("nama domain website : ")
-    w = whois.whois(url)
+    w = whois.query(url)
 
-    for key,val in w.items():
+    for key,val in w.__dict__.items():
         print(key,':',val)
 
     i = input("\nkeluar ketik 'q' lalu enter : ")
